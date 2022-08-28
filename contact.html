@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" >
+    <script src="index.js" ></script>
+    <style>
+        #stcontact{
+            width: 1491px;
+            height: 786px;
+            position: relative;
+        }
+        .form{
+            width: 745px;
+            height: 786px;
+            background-color: #fe8340;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        .anh{
+            width: 746px;
+            height: 786px;
+            background-color: #293e31;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+        .form form{
+            position: absolute;
+            top:180px;
+            left: 200px;
+            position: relative;
+            border: 2px solid #293e31;
+            width: 280px;
+            padding-left: 50px;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .form input{
+            border: 2px solid #293e31;
+        }
+        .anh iframe{
+            position: absolute;
+            top: 130px;
+            left: 70px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        
+        <h2>Deerfield Farm</h2>
+        <h3>Deliver Season's Best</h3>
+        <div id="menu">
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">New product</a></li>
+                
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="join">
+        <img  src="join.png" alt="" onclick="mo()"/>
+        
+    </div>
+
+    <div id="st_form">
+        <i onclick="dong()" class="material-icons" style="font-size:60px;color:#005891">add</i>
+        <h2>please give me information</h2>
+        <form>
+            <div id="text">
+            <label>First Name</label><br>
+            <input type="text" id="firstname" placeholder="Enter your first name"><br>
+            <label class="ln">Last Name</label><br>
+            <input type="text" id="lastname"  placeholder="Enter your last name"><br>
+            <label>Email</label><br>
+            <input type="email" id="email"    placeholder="Enter your email"><br>
+            <label class="phone">Phone</label><br>
+            <input type="text" id="phone"     placeholder="Enter your phone"><br>
+            <label>City</label><br>
+            <input type="text" id="city"      placeholder="Enter your city"><br>
+            <label class="st">State</label><br>
+            <input type="text" id="state"     placeholder="Enter your state"><br>
+        </div>
+
+            
+
+            <div id="chon">
+                <h3>Choose your basket?</h3>
+                <input type="radio"  name="basket" value="small">
+                <label for="small">Small Basket</label><br>
+                <input type="radio"  name="basket" value="family">
+                <label for="family">Family Basket</label><br>
+                <input type="radio"  name="basket" value="wolesome">
+                <label for="wolesome">Wholesome Family Basket</label><br>
+                <div id="when">
+                <h3>Choose delivery day & time</h3>
+                <input type="radio"  name="when" value="Mondays">
+                <label for="small">Mondays: 8am - 1pm</label><br>
+                <input type="radio"  name="when" value="Wednsadys">
+                <label for="family">Wednsadys: 8am - 1pm</label><br>
+                <input type="radio"  name="when" value="Fridays">
+                <label for="wolesome">Fridays: 8am - 1pm</label><br>
+                </div>
+            </div>
+            <button type="submit" id="sm">SUBMIT</button>
+        </form>
+    </div>
+
+    <section id="stcontact">
+        
+    <div class="form">
+        <form>
+            <label>First Name</label><br>
+            <input type="text" id="validone"/><br>
+            <label>Last Name</label><br>
+            <input type="text" id="validtwo"/><br>
+            <label>Email</label><br>
+            <input type="text" id="validthree"/><br>
+            <label>Phone</label><br>
+            <input type="text" id="validfour"/><br>
+            <label>Message</label><br>
+            <textarea cols="30" rows="5"></textarea>
+            <button type="button" onclick="valid()">SubMit</button>
+        </form>
+    </div>
+    <div class="anh">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.8383544743297!2d108.15481131472505!3d16.073875843583245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218d9a3a9e39d%3A0x2a75add9995c4667!2zUGjDuiBUaOG6oW5oIDEsIEjDsmEgTWluaCwgTGnDqm4gQ2hp4buDdSwgxJDDoCBO4bq1bmcgNTUwMDAwLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1655310822555!5m2!1sen!2s" 
+        width="600" 
+        height="450" style="border:0;" allowfullscreen="" 
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+        
+    </section>
+    <footer id="ft">
+        <div id="khung">
+            <p id="doan1">500 Terry Francois Street<br>
+
+                San Francisco, CA 94158<br>
+                
+                info@my-domain.com<br>
+                
+                Tel: 123-456-7890<br>
+                
+                Fax: 123-456-7890</p><br>
+            <p id="doan2">
+                Operating Hours<br>
+                Mon - Fri: 8am - 8pm<br>
+
+                ​​Saturday: 9am - 7pm<br>
+
+                ​Sunday: 9am - 8pm<br>
+            </p><br>
+            <p id="doan3">
+                Delivery Hours<br>
+
+                Mondays : 8am - 1pm<br>
+                Wednesdays:  8am - 1pm <br>
+                Fridays:  8am - 1pm<br>
+
+
+            </p>
+        </div>
+        <img id="farm" src="farm.png" alt="" />
+        <form>
+            <label>Get the Latest News & Updates</label><br>
+            <input type="email" placeholder="EMAIL" /> <button>JOIN</button>
+        </form>
+        <a href="#"><img id="fb" src="facebook-icon.png" /></a>
+        <a href="#"><img id="zl" src="zalo.jpg" /></a>
+        <a href="#"><img id="tw" src="tw.png" /></a>
+        <p id="end">@created by Nguyen Duc Hoang Duong</p>
+    </footer>
+    <script>
+        function valid(){
+            var a = document.getElementById("validone");
+            if(a.value.length == 0){
+                alert("please give me information about first name");
+                
+            }
+
+            var b = document.getElementById("validtwo");
+            if(b.value.length == 0){
+                alert("please give me information about last name");
+                
+            }
+
+            var email= document.getElementById("validthree");
+                var filter = /^([a-zA-Z0-9_.-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
+
+            if(email.value.length == 0){
+                alert("please give me information about email");
+                
+            }
+
+            if(!filter.test(email.value)){
+                alert("Invalid email format");
+                
+            }
+
+            var c = document.getElementById("validfour");
+
+            if(c.value.length == 0){
+                alert("please give me information about phone");
+                
+            }
+
+            if(c.value.length != 11){
+                alert("phone has 11 number");
+                
+            }
+
+            
+        }
+    </script>
+       
+</body>
+</html>

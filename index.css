@@ -1,0 +1,885 @@
+
+.container-tong{
+    display: block;
+}
+
+body{
+    
+    margin-left: -5px;
+}
+
+/* đây là phần Nav */
+
+
+
+nav{
+    width: 1491px;
+    height: 100px;
+    background-color: #fe8340;
+    position: relative;
+    position: relative;
+    margin-top: -7px;
+}
+#menu{
+    width: 1092px;
+    height: 100px;
+    background-color: #293e31;
+    position: absolute;
+    top: 0px;
+    left: 400px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+li{
+    padding-left: 30px;
+    color: white;
+    position: relative;
+    top: 25px;
+    left: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+ul li a:hover{
+    
+    color: #fe8340;
+}
+nav h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 28px;
+    position: absolute;
+    top:5px;
+    left: 50px;
+}
+nav h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top:45px;
+    left: 50px;
+}
+#join img{
+    width: 120px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    
+}
+
+#join{
+    width: 120px;
+    height: 100px;
+    position: relative;
+    z-index: 10;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    animation-name: chay;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+
+@keyframes chay{
+    0%{
+        
+        right: 50px;
+    }
+    100%{
+        
+        right: 0px;
+    }
+}
+
+#st_form{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 600px;
+    height: 700px;
+    background-color: #293e31;
+    z-index: 5;
+    color: #fe8340;
+    padding-left: 30px;
+    padding-top: 100px;
+    display: none;
+    
+}
+#st_form  .material-icons{
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 75px;
+}
+
+#st_form form, h2{
+    position: relative;
+    bottom: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#text input{
+    background-color: white;
+    
+    width: 250px;
+    height: 30px;
+    border: 1px solid black;
+    
+}
+
+#lastname , #phone , #state , .ln , .phone , .st{
+    position: relative;
+    left: 300px;
+    bottom: 52px;
+} 
+
+
+#js{
+    position: absolute;
+    top: 26px;
+    left: 34px;
+}
+#join #js, img:hover{
+    cursor: pointer;
+}
+
+#chon{
+    border: 1px solid #005891;
+    width: 400px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    width: 500px;
+}
+
+/* kết thúc phần nav */
+
+/* mở đầu phần banner */
+#anh{
+    width: 1491px;
+    height: 100vh;
+    position: relative;
+}
+#anh1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 700px;
+}
+#anh2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 730px;
+}
+#anh3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 760px;
+}
+#anh4{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: 5px;
+    left: 790px;
+}
+
+/* kết thúc phần banner */
+
+
+/* mở đầu phần section2 */
+#st_2{
+    width: 1491px;
+    height: 500px;
+    background-color: #f9f7f5;
+    position: relative;
+    margin-top: -5px;
+    
+}
+
+#st_2 h2{
+    position: absolute;
+    top: 30px;
+    left: 120px;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#st_2 p{
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+#st_2 a{
+    position: absolute;
+    top: 320px;
+    left: 120px;
+    text-decoration: none;
+    
+    width: 110px;
+    height: 20px;
+    padding: 15px 15px;
+    background-color: #fe8340;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+#st_2 img{
+    position: absolute;
+    width: 200px;
+    top:100px;
+    right: 200px;
+    animation-name: to;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-duration: 10s;
+}
+
+
+@keyframes to{
+    0%{
+        transform: scale(1);
+    }
+    10%{
+        transform: scale(1.1);
+    }
+    20%{
+        transform: scale(1.2);
+    }
+    30%{
+        transform: scale(1.3);
+    }
+    40%{
+        transform: scale(1.4);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    60%{
+        transform: scale(1.6);
+    }
+    70%{
+        transform: scale(1.7);
+    }
+    80%{
+        transform: scale(1.8);
+    }
+    90%{
+        transform: scale(1.9);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
+
+/* kết thúc phần section2 */
+
+/* mở đầu phần section 3 */
+#st_3{
+    width: 1491px;
+    height: 100vh;
+    background-color: #dacec2;
+    position: relative;
+}
+
+    #st_3 h2{
+        
+        position: absolute;
+        top:50px;
+        left: 40%;
+        color: #293e31;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 32px;
+    }
+#wrapper{
+    width: 1150px;
+    height: 300px;
+    
+    position: relative;
+    
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0 auto;
+        
+        
+        position: relative;
+        top: 200px;
+        
+        
+    }
+.anh{
+    width: 300px;
+    height: 300px;
+    
+    
+}
+
+    #icl{
+        position: absolute;
+        left: 100px;
+        top: 310px;
+    }
+
+    #icr{
+        position: absolute;
+        right: 100px;
+        top: 310px;
+    }
+    i:hover{
+        cursor: pointer;
+    }
+    .container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    float: left;
+    
+    margin-left: 58px;
+    overflow: hidden;
+    
+    }
+
+/* Bottom right text */
+    .text-block {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 300PX;
+    
+    }
+    #a1 , #a2 , #a3 , #a4 , #a5 , #a6 , #a7, #a8 {display: none;}
+    #z1:hover{
+        animation-name: phongto;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    #con1:hover #a1{
+        display: block;
+    }
+
+    #z2:hover{
+        animation-name: phongto;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    #con2:hover #a2{
+        display: block;
+    }
+    #z3:hover{
+        animation-name: phongto;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    #con3:hover #a3{
+        display: block;
+    }
+    #z4:hover{
+        animation-name: phongto;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    #con4:hover #a4{
+        display: block;
+    }
+    #z5:hover{
+        animation-name: phongto;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    #con5:hover #a5{
+        display: block;
+    }
+    #z6:hover{
+        animation-name: phongto;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    #con6:hover #a6{
+        display: block;
+    }
+    #z7:hover{
+        animation-name: phongto;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    #con7:hover #a7{
+        display: block;
+    }
+    #z8:hover{
+        animation-name: phongto;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    #con8:hover #a8{
+        display: block;
+    }
+    @keyframes phongto{
+        0%{transform: scale(1);}
+        100%{transform: scale(1.8);}
+    }
+    #st_3 a{
+        text-decoration: none;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 17px;
+    width: 130px;
+    height: 20px;
+    padding: 15px 15px;
+    background-color: #fe8340;
+    color: black;
+    position: absolute;
+    bottom: 30px;
+    left: 45%;
+    }
+    #st_3 #OL{
+        background-color: #fe8340;
+        width: 130px;
+        height: 40px;
+        padding-top: 1px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        position: absolute;
+        bottom: 70px;
+        left: 45%;
+    }
+    #st_3 #OL:hover{
+        
+        cursor: pointer;
+        color: white;
+        animation-name: mau;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: 0s;
+        
+    }
+    @keyframes mau{
+        0%{
+            background: #293e31;
+            
+        }
+        
+        100%{
+            background: #fe8340;
+           
+        }
+    }
+    #trum:hover{
+        border: 5px solid #eddd70;
+    }
+    /* kết thúc section 3 */
+    /* mở đầu section 4 */
+    #st_4{
+        height: 100vh;
+        width: 1491px;
+        position: relative;
+    }
+    #nenxanh{
+        background-color: #293e31;
+        width: 746px;
+        height: 786px;
+        position: relative;
+        
+    }
+    #nenxanh img{
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        width: 300px;
+        
+    }
+    #nhamay{
+        width: 746px;
+        height: 786px;
+        position: absolute;
+        top:0px;
+        
+        z-index: -1;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        
+        
+    }
+    
+    /* kết thúc section 4 */
+    /* mở đầu section 5 */
+    
+    #st_5{
+        background-color: #dacec2;
+        width: 1491px;
+        height: 100vh;
+        position: relative;
+    }
+    #st_5 h2{
+        position: absolute;
+        top:20px;
+        left: 45%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 31px;
+        color: #293e31;
+    }
+
+    #ct1 {
+        background-color: #fcf9f4;
+        width: 292px;
+        height: 350px;
+        position: relative;
+        
+        position: absolute;
+        top: 110px;
+        left: 15%;
+    }
+    #ct2 {
+        background-color: #fcf9f4;
+        width: 292px;
+        height: 350px;
+        position: relative;
+        
+        position: absolute;
+        top: 110px;
+        left: 40%;
+    }
+    #ct3 {
+        background-color: #fcf9f4;
+        width: 292px;
+        height: 350px;
+        position: relative;
+        
+        position: absolute;
+        top: 110px;
+        left: 65%;
+    }
+    #ct1 img{
+        width: 292px;
+        height: 164px;
+        position: absolute;
+        top: 0px;
+    }
+    #ct2 img{
+        width: 292px;
+        height: 164px;
+        position: absolute;
+        top: 0px;
+    }
+    #ct3 img{
+        width: 292px;
+        height: 164px;
+        position: absolute;
+        top: 0px;
+    }
+    #ct1 h4{
+        position: absolute;
+        top:205px;
+        left: 0px;
+    }
+    #ct2 h4{
+        position: absolute;
+        top:205px;
+        left: 40px;
+    }
+    #ct3 h4{
+        position: absolute;
+        top:205px;
+        left: 30px;
+    }
+    h4{
+        position: absolute;
+        top: 170px;
+        
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 21px;
+        color: #293e31;
+    }
+     #ct1 #aa1{
+        position: absolute;
+        bottom: 5px;
+        left: 40%;
+    }
+    #ct1 #bb1{
+        position: absolute;
+        bottom: 5px;
+        left: 15%;
+    }
+    #ct1 #cc1{
+        position: absolute;
+        bottom: 5px;
+        left: 65%;
+    }
+    #ct2 #aa2{
+        position: absolute;
+        bottom: 5px;
+        left: 40%;
+    }
+    #ct2 #bb2{
+        position: absolute;
+        bottom: 5px;
+        left: 15%;
+    }
+    #ct2 #cc2{
+        position: absolute;
+        bottom: 5px;
+        left: 65%;
+    }
+    #ct3 #aa3{
+        position: absolute;
+        bottom: 5px;
+        left: 40%;
+    }
+    #ct3 #bb3{
+        position: absolute;
+        bottom: 5px;
+        left: 15%;
+    }
+    #ct3 #cc3{
+        position: absolute;
+        bottom: 5px;
+        left: 65%;
+    }
+
+    #st_5 #vm{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+        text-decoration: none;
+  
+    width: 100px;
+    height: 20px;
+    padding: 15px 25px;
+    background-color: #fe8340;
+    color: black;
+    position: absolute;
+    bottom: 150px;
+    left: 45%;
+    }
+    
+    /* kết thúc section 5 */
+    /* mở đầu phần nav */
+    #st1{
+        background-color: #dacec2;
+        width: 100vw;
+        height: 100vh;
+        position: relative;
+        display: none;
+        position: fixed;
+        top:0px;
+        left: 0px;
+        
+        z-index: 5;
+    }
+    #st1 form{
+        position: absolute;
+        top: 250px;
+        left: 800px;
+    }
+    /* mở đầu footer */
+
+    footer{
+        background-color: #293e31;
+        width: 1491px;
+        height: 100vh;
+        position: relative;
+    }
+    #khung{
+        width: 800px;
+        height: 292px;
+        background-color: #fcf9f4;
+        position: absolute;
+        left: 21%;
+        top: -110px;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    #khung #doan1{
+        position: absolute;
+        top:70px;
+        left: 60px;
+        font-size: 16px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+    }
+    #khung #doan2{
+        position: absolute;
+        top:70px;
+        left: 300px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+    }
+    #khung #doan3{
+        position: absolute;
+        top:70px;
+        left: 500px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 16px;
+    }
+    footer #farm{
+        position: absolute;
+        top: 180px;
+        left: 250px;
+        animation-name: tron;
+        animation-duration: 60s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes tron{
+        0%{
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+    footer form{
+        position: absolute;
+        left: 35%;
+        top:300px;
+    }
+    footer label{
+        font-size: 21px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: #fe8340;
+
+    }
+    footer input{
+        width: 300px;
+        height: 30px;
+    }
+    footer button{
+        height: 40px;
+        width: 80px;
+    }
+    footer input:hover{
+        border: 2px solid #005891;
+    }
+    footer button:hover{
+        background-color: #005891;
+    }
+    
+    #fb{
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 360px;
+        left: 20%;
+    }
+    #zl{
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        top: 400px;
+        left: 45%;
+    }
+    #tw{
+        width: 150px;
+        height: 150px;
+        position: absolute;
+        top: 400px;
+        left: 65%;
+    }
+    #end{
+        position: absolute;
+        left: 40%;
+        bottom: 10px;
+    }
+    
+
+    #sm{
+        background-color: #fe8340;
+        position: relative;
+        top:20px;
+        left: 250px;
+    }
+  
+    
+
+   
+  
+   #if1 img{
+    position: absolute;
+    top:120px;
+    left: 20%;
+   }
+   #h11{
+       position: absolute;
+       top: 10px;
+       left: 45%;
+       color: #eddd70;
+   }
+   #cl{
+       color: white;
+       background-color: #fe8340;
+       position: absolute;
+       left: 48%;
+       bottom: 50px;
+   }
+   #kengang1{
+       width: 250px;
+       height: 1px;
+       background-color: #293e31;
+       position: absolute;
+       bottom: 35px;
+       left: 20px;
+   }
+   #kengang2{
+    width: 250px;
+    height: 1px;
+    background-color: #293e31;
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+}
+    #kengang3{
+        width: 250px;
+        height: 1px;
+        background-color: #293e31;
+        position: absolute;
+        bottom: 35px;
+        left: 20px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    button:hover{
+        cursor: pointer;
+    }
+    

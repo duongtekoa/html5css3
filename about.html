@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" >
+    <link
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="index.js" ></script>
+    <style>
+        #stabout{
+            width: 1491px;
+            height: 100vh;
+            font-size: 16px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-top: -8px;
+            
+        }
+        #trai{
+            width: 745px;
+            height: 100vh;
+            background-color: #fe8340;
+            float: left;
+            position: relative;
+        }
+        #phai{
+            width: 746px;
+            height: 100vh;
+            background-color: #293e31;
+            float: right;
+            position: relative;
+        }
+       #stabout h2{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 31px;
+            position: absolute;
+            left: 50px;
+            top: 110px;
+        }
+        p{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+            width: 0px;
+            opacity: 0;
+            text-align: justify;
+            position: absolute;
+            left: 100px;
+            top: 220px;
+            
+        }
+     #phai img{
+            position: absolute;
+            left: 32%;
+            top: 35%;
+            width: 300px;
+            height: 200px;
+        }
+        #trai button{
+            position: absolute;
+            top:190px;
+            left: 200px;
+            background-color: #293e31;
+            color: white;
+            padding: 5px 10px;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <nav>
+        
+        <h2>Deerfield Farm</h2>
+        <h3>Deliver Season's Best</h3>
+        <div id="menu">
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">New product</a></li>
+                
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="join">
+        <img  src="join.png" alt="" onclick="mo()"/>
+        
+    </div>
+
+    <div id="st_form">
+        <i onclick="dong()" class="material-icons" style="font-size:60px;color:#005891">add</i>
+        <h2>please give me information</h2>
+        <form>
+            <div id="text">
+            <label>First Name</label><br>
+            <input type="text" id="firstname" placeholder="Enter your first name"><br>
+            <label class="ln">Last Name</label><br>
+            <input type="text" id="lastname"  placeholder="Enter your last name"><br>
+            <label>Email</label><br>
+            <input type="email" id="email"    placeholder="Enter your email"><br>
+            <label class="phone">Phone</label><br>
+            <input type="text" id="phone"     placeholder="Enter your phone"><br>
+            <label>City</label><br>
+            <input type="text" id="city"      placeholder="Enter your city"><br>
+            <label class="st">State</label><br>
+            <input type="text" id="state"     placeholder="Enter your state"><br>
+        </div>
+
+            
+
+            <div id="chon">
+                <h3>Choose your basket?</h3>
+                <input type="radio"  name="basket" value="small">
+                <label for="small">Small Basket</label><br>
+                <input type="radio"  name="basket" value="family">
+                <label for="family">Family Basket</label><br>
+                <input type="radio"  name="basket" value="wolesome">
+                <label for="wolesome">Wholesome Family Basket</label><br>
+                <div id="when">
+                <h3>Choose delivery day & time</h3>
+                <input type="radio"  name="when" value="Mondays">
+                <label for="small">Mondays: 8am - 1pm</label><br>
+                <input type="radio"  name="when" value="Wednsadys">
+                <label for="family">Wednsadys: 8am - 1pm</label><br>
+                <input type="radio"  name="when" value="Fridays">
+                <label for="wolesome">Fridays: 8am - 1pm</label><br>
+                </div>
+            </div>
+            <button type="submit" id="sm">SUBMIT</button>
+        </form>
+    </div>
+    <section id="stabout">
+        <div id="trai">
+            <h2>The natural method of growing vegetables</h2>
+            <button class="animate__animated animate__heartBeat" type="button" onmouseover="showdoanvan()">Hover Here To Show Information</button>
+            <p id="dd">
+                In the process of farming according to nature, plants will grow 
+                according to the laws of nature. Farmers do not need water, do 
+                not fertilize, do not use herbicides and pesticides, but only 
+                care about "sowing seeds".
+
+                <br>
+                They began to create a segment of consumers who appreciate 
+                agricultural products, accept to use seasonal agricultural 
+                products, do not require high formalities and services. 
+                Most of the business owners dealing in natural agricultural 
+                products are well-educated, have good jobs, and high salaries, 
+                but they give up to return to agriculture. They use their own 
+                stories to attract customers.
+            </p>
+        </div>
+        <div id="phai">
+            <img src="windmill.jpg" alt="" />
+        </div>
+    </section>
+    <footer id="ft">
+        <div id="khung">
+            <p id="doan1">500 Terry Francois Street<br>
+
+                San Francisco, CA 94158<br>
+                
+                info@my-domain.com<br>
+                
+                Tel: 123-456-7890<br>
+                
+                Fax: 123-456-7890</p><br>
+            <p id="doan2">
+                Operating Hours<br>
+                Mon - Fri: 8am - 8pm<br>
+
+                ​​Saturday: 9am - 7pm<br>
+
+                ​Sunday: 9am - 8pm<br>
+            </p><br>
+            <p id="doan3">
+                Delivery Hours<br>
+
+                Mondays : 8am - 1pm<br>
+                Wednesdays:  8am - 1pm <br>
+                Fridays:  8am - 1pm<br>
+
+
+            </p>
+        </div>
+        <img id="farm" src="farm.png" alt="" />
+        <form>
+            <label>Get the Latest News & Updates</label><br>
+            <input type="email" placeholder="EMAIL" /> <button>JOIN</button>
+        </form>
+        <a href="#"><img id="fb" src="facebook-icon.png" /></a>
+        <a href="#"><img id="zl" src="zalo.jpg" /></a>
+        <a href="#"><img id="tw" src="tw.png" /></a>
+        <p id="end">@created by Nguyen Duc Hoang Duong</p>
+    </footer>
+    <script>
+       function showdoanvan(){
+        document.getElementById("dd").style.width = "500px";
+        document.getElementById("dd").style.transition = "ease 2s";
+        document.getElementById("dd").style.opacity = "1";
+       }
+    </script>
+</body>
+</html>

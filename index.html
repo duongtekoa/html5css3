@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <link href="index.css" rel="stylesheet" >
+    <script src="index.js" ></script>
+</head>
+<body>
+    <section class="container-tong">
+    <nav>
+        
+        <h2>Deerfield Farm</h2>
+        <h3>Deliver Season's Best</h3>
+        <div id="menu">
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">New product</a></li>
+                
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="join">
+        <img  src="join.png" alt="" onclick="mo()"/>
+        
+    </div>
+
+    <div id="st_form">
+        <i onclick="dong()" class="material-icons" style="font-size:60px;color:#005891">add</i>
+        <h2>please give me information</h2>
+        <form>
+            <div id="text">
+            <label>First Name</label><br>
+            <input type="text" id="firstname" placeholder="Enter your first name"><br>
+            <label class="ln">Last Name</label><br>
+            <input type="text" id="lastname"  placeholder="Enter your last name"><br>
+            <label>Email</label><br>
+            <input type="email" id="email"    placeholder="Enter your email"><br>
+            <label class="phone">Phone</label><br>
+            <input type="text" id="phone"     placeholder="Enter your phone"><br>
+            <label>City</label><br>
+            <input type="text" id="city"      placeholder="Enter your city"><br>
+            <label class="st">State</label><br>
+            <input type="text" id="state"     placeholder="Enter your state"><br>
+        </div>
+
+            
+
+            <div id="chon">
+                <h3>Choose your basket?</h3>
+                <input type="radio"  name="basket" value="small">
+                <label for="small">Small Basket</label><br>
+                <input type="radio"  name="basket" value="family">
+                <label for="family">Family Basket</label><br>
+                <input type="radio"  name="basket" value="wolesome">
+                <label for="wolesome">Wholesome Family Basket</label><br>
+                <div id="when">
+                <h3>Choose delivery day & time</h3>
+                <input type="radio"  name="when" value="Mondays">
+                <label for="small">Mondays: 8am - 1pm</label><br>
+                <input type="radio"  name="when" value="Wednsadys">
+                <label for="family">Wednsadys: 8am - 1pm</label><br>
+                <input type="radio"  name="when" value="Fridays">
+                <label for="wolesome">Fridays: 8am - 1pm</label><br>
+                </div>
+            </div>
+            <button type="submit" id="sm" onclick="validone()">SUBMIT</button>
+        </form>
+    </div>
+    <article id="atc">
+    <section id="st_1">
+        <img id="anh" src="anh1.webp" alt="" />
+        <div id="anh1" onclick="anh1()"></div>
+        <div id="anh2" onclick="anh2()"></div>
+        <div id="anh3" onclick="anh3()"></div>
+        <div id="anh4" onclick="anh4()"></div>
+        
+    </section>
+    <section id="st_2">
+        <h2>
+            Support Sustainable<br>
+            Farming</h2>
+        <P>
+I'm a paragraph. Click here to add your own text and edit<br>
+ me. It’s easy. Just click “Edit Text” or double click me<br>
+  to add your own content and make changes to the font. <br>
+  I’m a great place for you to tell a story and let your <br>
+  users know a little more about you.
+        </P>
+        <img src="windmill.jpg" alt="" />
+        <a href="#" >Join With Us</a>
+    </section>
+    
+    <section id="st_3">
+        <h2>Shop Season's Product</h2>
+        <div id="wrapper">
+            <div id="diving">
+                <div class="container" id="con1">
+                    <img src="p1.webp" alt="" id="z1" class="anh"  onclick="one()"> 
+                    <div class="text-block" id="a1">
+                      
+                      <p>SHOW MORE INFORMATION</p>
+                    </div>
+                  </div>
+                  <div class="container" id="con2">
+                    <img src="p2.webp" alt="" id="z2" class="anh"  onclick="two()">
+                    <div class="text-block" id="a2">
+                        <p>SHOW MORE INFORMATION</p>
+                    </div>
+                  </div>
+                  <div class="container" id="con3"> 
+                    <img src="p3.webp" alt="" id="z3" class="anh"  onclick="three()">
+                    <div class="text-block" id="a3">
+                        <p>SHOW MORE INFORMATION</p>
+                    </div>
+                  </div>
+                  <div class="container" id="con4">
+                    <img src="p4.webp" alt="" id="z4" class="anh"  onclick="four()">
+                    <div class="text-block" id="a4">
+                        <p>SHOW MORE INFORMATION</p>
+                    </div>
+                  </div>
+                  <div class="container" id="con5">
+                    <img src="p5.webp" alt="" id="z5" class="anh"  onclick="five()">
+                    <div class="text-block" id="a5">
+                        <p>SHOW MORE INFORMATION</p>
+                    </div>
+                  </div>
+                  <div class="container" id="con6">
+                    <img src="p6.webp" alt="" id="z6" class="anh"  onclick="six()">
+                    <div class="text-block" id="a6">
+                        <p>SHOW MORE INFORMATION</p>
+                    </div>
+                  </div>
+                  <div class="container" id="con7">
+                    <img src="p7.webp" alt="" id="z7" class="anh"  onclick="seven()">
+                    <div class="text-block" id="a7">
+                        <p>SHOW MORE INFORMATION</p>
+                    </div>
+                  </div>
+                  <div class="container" id="con8">
+                    <img src="p8.webp" alt="" id="z8" class="anh"  onclick="eight()">
+                    <div class="text-block" id="a8">
+                        <p>SHOW MORE INFORMATION</p>
+                    </div>
+                  </div>
+                  
+                    </div>
+                  </div>
+            </div>
+            <div class="iconL" onclick="prev1()"><i id="icl" class="material-icons" style="font-size:48px;color:#fe8340">keyboard_arrow_left</i></div>
+            <div class="iconR" onclick="next1()"><i id="icr" class="material-icons" style="font-size:48px;color:#fe8340">keyboard_arrow_right</i></div>
+        </div>
+            
+        <div id="OL">
+            <p>Order Online</p>
+        </div>
+                
+    </section>
+
+    <section id="st_4">
+        <div id="nenxanh">
+            <img src="quytrinh1.jpg" alt="" />
+        </div>
+        <img src="quytrinh2.jpg" alt="" id="nhamay"/>
+    </section>
+    
+    <section id="st_5">
+        <h2>From Our Blog</h2>
+        <div id="ct1">
+             <img src="blog1.webp" alt="" /> 
+            <a href="#" > <h4>New in the Basket: Seasonal Additions</h4> </a>
+            <div id="kengang1">
+
+            </div>
+            <i id="aa1" class="material-icons" style="font-size:25px">chat_bubble</i>
+            <i id="bb1" class="material-icons" style="font-size:25px">favorite_border</i>
+            <i id="cc1" class="material-icons" style="font-size:25px">remove_red_eye</i>
+        </div>
+        <div id="ct2">
+            <img src="blog2.webp" alt="" />
+            <a href="#" > <h4>Crispy Kale Salad</h4> </a>
+            <div id="kengang2">
+
+            </div>
+            <i id="aa2" class="material-icons" style="font-size:25px">chat_bubble</i>
+            <i id="bb2" class="material-icons" style="font-size:25px">favorite_border</i>
+            <i id="cc2" class="material-icons" style="font-size:25px">remove_red_eye</i>
+        </div>
+        <div id="ct3">
+            <img src="blog3.webp" alt="" />
+            <a href="#"><h4>Urban Garden Workshop </h4></a>
+            <div id="kengang3">
+
+            </div>
+            <i id="aa3" class="material-icons" style="font-size:25px">chat_bubble</i>
+            <i id="bb3" class="material-icons" style="font-size:25px">favorite_border</i>
+            <i id="cc3" class="material-icons" style="font-size:25px">remove_red_eye</i>
+        </div>
+        <a href="#" id="vm" >View More</a>
+        
+
+    </section>
+
+    
+</article>
+<aside>
+    <section id="st1">
+        <div id="goi">
+            <div id="if1">
+                <img id="show" align="left" src="p1.webp" width="500px" height="300px" />
+                <div id="buy1">
+                    <h2>Classic Basket</h2>
+                    <h3>SKU: 0001</h3>
+                    <h4>$15.00</h4>
+                    <form>
+                        <label>Quantity</label>
+                        <input type="number">
+                    </form>
+                    <div id="addcardsp1"><p>Add To Card</p></div>
+                    <div id="addbuysp1"><p>Buy Now</p></div>
+                    
+                </div>
+                <div id="buy2">
+                    <h2>Mixed Basket</h2>
+                    <h3>SKU: 0002</h3>
+                    <h4>$25.00</h4>
+                    
+                    <div id="addcardsp2"><p>Add To Card</p></div>
+                    <div id="addbuysp2"><p>Buy Now</p></div>
+                    
+                </div>
+                <div id="buy3">
+                    <h2>Wholesome Family Basket</h2>
+                    <h3>SKU: 0003</h3>
+                    <h4>$45.00</h4>
+                    
+                    <div id="addcardsp3"><p>Add To Card</p></div>
+                    <div id="addbuysp3"><p>Buy Now</p></div>
+                    
+                </div>
+                <div id="buy4">
+                    <h2>Red Apple</h2>
+                    <h3>SKU: 0004</h3>
+                    <h4>$2.00</h4>
+                    
+                    <div id="addcardsp3"><p>Add To Card</p></div>
+                    <div id="addbuysp3"><p>Buy Now</p></div>
+                    
+                </div>
+                <div id="buy5">
+                    <h2>Carrot</h2>
+                    <h3>SKU: 0005</h3>
+                    <h4>$2.00</h4>
+                    
+                    <div id="addcardsp5"><p>Add To Card</p></div>
+                    <div id="addbuysp5"><p>Buy Now</p></div>
+                    
+                </div>
+                <div id="buy6">
+                    <h2>Mora</h2>
+                    <h3>SKU: 0006</h3>
+                    <h4>$2.00</h4>
+                    
+                    <div id="addcardsp6"><p>Add To Card</p></div>
+                    <div id="addbuysp6"><p>Buy Now</p></div>
+                    
+                </div>
+                <div id="buy7">
+                    <h2>pumpkin</h2>
+                    <h3>SKU: 0007</h3>
+                    <h4>$2.00</h4>
+                    
+                    <div id="addcardsp7"><p>Add To Card</p></div>
+                    <div id="addbuysp7"><p>Buy Now</p></div>
+                    
+                </div>
+                <div id="buy8">
+                    <h2>Broccoli</h2>
+                    <h3>SKU: 0008</h3>
+                    <h4>$2.00</h4>
+                    
+                    <div id="addcardsp8"><p>Add To Card</p></div>
+                    <div id="addbuysp8"><p>Buy Now</p></div>
+                    
+                </div>
+            </div>
+        </div>
+        <button id="cl" onclick="cls()">CLOSE</button>
+    </section>
+</aside>
+
+    <footer id="ft">
+        <div id="khung">
+            <p id="doan1">500 Terry Francois Street<br>
+
+                San Francisco, CA 94158<br>
+                
+                info@my-domain.com<br>
+                
+                Tel: 123-456-7890<br>
+                
+                Fax: 123-456-7890</p><br>
+            <p id="doan2">
+                Operating Hours<br>
+                Mon - Fri: 8am - 8pm<br>
+
+                ​​Saturday: 9am - 7pm<br>
+
+                ​Sunday: 9am - 8pm<br>
+            </p><br>
+            <p id="doan3">
+                Delivery Hours<br>
+
+                Mondays : 8am - 1pm<br>
+                Wednesdays:  8am - 1pm <br>
+                Fridays:  8am - 1pm<br>
+
+
+            </p>
+        </div>
+        <img id="farm" src="farm.png" alt="" />
+        <form>
+            <label>Get the Latest News & Updates</label><br>
+            <input type="email" placeholder="EMAIL" /> <button>JOIN</button>
+        </form>
+        <a href="#"><img id="fb" src="facebook-icon.png" /></a>
+        <a href="#"><img id="zl" src="zalo.jpg" /></a>
+        <a href="#"><img id="tw" src="tw.png" /></a>
+        <p id="end">@created by Nguyen Duc Hoang Duong</p>
+    </footer>
+
+</section>
+</body>
+</html>

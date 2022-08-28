@@ -1,0 +1,4 @@
+tone màu chính: #293e31
+màu đối lập : #fe8340
+mau phu :#f9f7f5
+font-family : 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

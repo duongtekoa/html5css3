@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="index.css" rel="stylesheet" >
+    <script src="index.js" ></script>
+    <style>
+        
+        #stproduct{
+            width: 1491px;
+            height: 2750px;
+            background-color: #dacec2;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 16px;
+            margin-left: -5px;
+           
+            position: relative;
+        }
+        #stproduct h2{
+            position: absolute;
+            left: 35%;
+            top: 50px;
+            font-size: 25px;
+        }
+        #np1 , #np2 , #np3 , #np4 , #np5 , #np6, #np7 , #np8 ,#np9 , #np10 , #np10 , #np11 , #np12 , #np13 , #np14 , #np15 , #np16 , #np17 , #np18 {
+            margin-top: 50px;
+            margin-left: 30px;
+            width: 300px;
+            float: left;
+            height: 450px;
+            border: 1px solid #293e31;
+            text-align: center;
+            position: relative;
+            top:100px;
+            left: 70px;
+        }
+      #stproduct  input{
+            width: 290px;
+            height: 30px;
+            text-align: center;
+        }
+        #stproduct form button{
+            background-color: #293e31;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        
+        <h2>Deerfield Farm</h2>
+        <h3>Deliver Season's Best</h3>
+        <div id="menu">
+            <ul >
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="product.html">New product</a></li>
+                
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div id="join">
+        <img  src="join.png" alt="" onclick="mo()"/>
+        
+    </div>
+
+    <div id="st_form">
+        <i onclick="dong()" class="material-icons" style="font-size:60px;color:#005891">add</i>
+        <h2>please give me information</h2>
+        <form>
+            <div id="text">
+            <label>First Name</label><br>
+            <input type="text" id="firstname" placeholder="Enter your first name"><br>
+            <label class="ln">Last Name</label><br>
+            <input type="text" id="lastname"  placeholder="Enter your last name"><br>
+            <label>Email</label><br>
+            <input type="email" id="email"    placeholder="Enter your email"><br>
+            <label class="phone">Phone</label><br>
+            <input type="text" id="phone"     placeholder="Enter your phone"><br>
+            <label>City</label><br>
+            <input type="text" id="city"      placeholder="Enter your city"><br>
+            <label class="st">State</label><br>
+            <input type="text" id="state"     placeholder="Enter your state"><br>
+        </div>
+
+            
+
+            <div id="chon">
+                <h3>Choose your basket?</h3>
+                <input type="radio"  name="basket" value="small">
+                <label for="small">Small Basket</label><br>
+                <input type="radio"  name="basket" value="family">
+                <label for="family">Family Basket</label><br>
+                <input type="radio"  name="basket" value="wolesome">
+                <label for="wolesome">Wholesome Family Basket</label><br>
+                <div id="when">
+                <h3>Choose delivery day & time</h3>
+                <input type="radio"  name="when" value="Mondays">
+                <label for="small">Mondays: 8am - 1pm</label><br>
+                <input type="radio"  name="when" value="Wednsadys">
+                <label for="family">Wednsadys: 8am - 1pm</label><br>
+                <input type="radio"  name="when" value="Fridays">
+                <label for="wolesome">Fridays: 8am - 1pm</label><br>
+                </div>
+            </div>
+            <button type="submit" id="sm">SUBMIT</button>
+        </form>
+    </div>
+
+    <section id="stproduct">
+        <h2>Fresh Produce Delivered Weekly</h2>
+        <div id="np1">
+            <img id="style1" src="p1.webp" alt="" width="300px" height="300px"/>
+            <p>
+                Classic Basket Price<br>
+                <span>$15.00</span>
+            </p>
+            <form>
+                
+                <button  type="button" onclick="giohang1()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np2">
+            <img src="p2.webp" alt="" width="300px" height="300px"/>
+            <p>
+                Mixed Basket<br>
+                <span>$25.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang2()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np3">
+            <img src="p3.webp" alt="" width="300px" height="300px"/>
+            <p>
+                Wholesome Family Basket<br>
+                <span>$45.00</span>
+            </p>
+            <form>
+               
+                <button type="button" onclick="giohang3()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np4">
+            <img src="p4.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 4 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang4()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np5">
+            <img src="p5.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 5 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang5()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np6">
+            <img src="p6.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 6 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang6()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np7">
+            <img src="p7.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 7 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang7()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np8">
+            <img src="p8.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 8 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang8()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np9">
+            <img src="p9.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 9 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang9()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np10">
+            <img src="p10.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 10 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang10()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np11">
+            <img src="p11.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 11 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang11()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np12">
+            <img src="p12.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 12 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang12()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np13">
+            <img src="p13.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 12 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang13()">Add to Card</button>
+            </form>
+
+        </div>
+        <div id="np14">
+            <img src="p14.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 13 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang14()">Add to Card</button>
+            </form>
+
+        </div>
+        
+        <div id="np15">
+            <img src="p15.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 14 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang15()">Add to Card</button>
+            </form>
+
+        </div>
+
+        <div id="np16">
+            <img src="p16.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 15 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang16()">Add to Card</button>
+            </form>
+
+        </div>
+
+        <div id="np17">
+            <img src="p17.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 17 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang17()">Add to Card</button>
+            </form>
+
+        </div>
+
+        <div id="np18">
+            <img src="p18.webp" alt="" width="300px" height="300px"/>
+            <p>
+                I'm a product 18 Price<br>
+                <span>$2.00</span>
+            </p>
+            <form>
+                
+                <button type="button" onclick="giohang18()">Add to Card</button>
+            </form>
+
+        </div>
+        
+    </section>
+    <footer id="ft">
+        <div id="khung">
+            <p id="doan1">500 Terry Francois Street<br>
+
+                San Francisco, CA 94158<br>
+                
+                info@my-domain.com<br>
+                
+                Tel: 123-456-7890<br>
+                
+                Fax: 123-456-7890</p><br>
+            <p id="doan2">
+                Operating Hours<br>
+                Mon - Fri: 8am - 8pm<br>
+
+                ​​Saturday: 9am - 7pm<br>
+
+                ​Sunday: 9am - 8pm<br>
+            </p><br>
+            <p id="doan3">
+                Delivery Hours<br>
+
+                Mondays : 8am - 1pm<br>
+                Wednesdays:  8am - 1pm <br>
+                Fridays:  8am - 1pm<br>
+
+
+            </p>
+        </div>
+        <img id="farm" src="farm.png" alt="" />
+        <form>
+            <label>Get the Latest News & Updates</label><br>
+            <input type="email" placeholder="EMAIL" /> <button>JOIN</button>
+        </form>
+        <a href="#"><img id="fb" src="facebook-icon.png" /></a>
+        <a href="#"><img id="zl" src="zalo.jpg" /></a>
+        <a href="#"><img id="tw" src="tw.png" /></a>
+        <p id="end">@created by Nguyen Duc Hoang Duong</p>
+    </footer>
+    <script>
+       function giohang1(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 15;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }
+
+    function giohang2(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 25;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }
+    function giohang3(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 45;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }
+    function giohang4(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }
+    function giohang5(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }
+    function giohang6(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang7(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang8(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang9(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang10(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang11(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang12(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang13(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang14(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang15(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang16(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang17(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }function giohang18(){
+       var a= prompt(" Moi ban nhap so luong muon mua vao o trong")
+       alert("ban da chon so luong san pham la:" +a );
+
+       var b = 2;
+       
+       
+       
+       var tong = parseInt(a)*b;
+       alert("tong so tien ban phai tra cho san pham nay la: $" +tong);
+       var c = confirm("ban co muon thuc hien giao dich nay ko ");
+       
+       console.log(a);
+       console.log(b);
+       console.log(tong); 
+       console.log(c); 
+    }
+    </script>
+</body>
+</html>
